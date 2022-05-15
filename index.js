@@ -1,3 +1,5 @@
+
+
 /* Get the number of available
    buttons using the .drum class
    (in this case, the "length" 
@@ -11,15 +13,19 @@ var numberOfButtons = document.querySelectorAll(".drum").length;
 for (let i = 0; i < numberOfButtons; i++) {
     document.querySelectorAll(".drum")[i].addEventListener("click", function() {
         var buttonInnerHTML = this.innerHTML;
+       
+        // call new makeSound function
+        // Pass in contents of inner HTML
+        makeSound(buttonInnerHTML);
     });
 }
 // set EventListener for entire page
 addEventListener("keydown", function() {
-    ;
+    makeSound(event.key);
 });
 
 function makeSound(key) {
-    switch (buttonInnerHTML) {
+    switch (key) {
         case "w":
             var tom1 = new Audio("sounds/tom-1.mp3");
             tom1.play();

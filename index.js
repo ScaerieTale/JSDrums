@@ -48,8 +48,13 @@ for (let i = 0; i < numberOfButtons; i++) {
                     break;
                 default: console.log();
         }
-    })
+    });
 }
+// Testing keydown EventListener
+addEventListener("keydown", function() {
+    alert("Key was pressed!"); // It worked!
+});
+
 
 // TODO: Add keyboard eventlisteners!
 // Add Constructor(s)?  See below vvv

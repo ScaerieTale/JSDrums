@@ -46,6 +46,7 @@ for (let i = 0; i < numberOfButtons; i++) {
                     let crash = new Audio("sounds/crash.mp3");
                     crash.play();
                     break;
+                default: console.log();
         }
     })
 }

@@ -68,4 +68,8 @@ for (let i = 0; i < numberOfButtons; i++) {
          a thing that exists, that I
          can tap into to manipulate
          items.  For example:
-            this.style.color="white"*/
+            this.style.color="white"
+            - just learned that the
+            lesson on Constructors was
+            to get a handle on how
+            "new Audio()" functions */

@@ -59,8 +59,8 @@ function makeSound(key) {
 }
 
 
-// TODO: Add keyboard eventlisteners!
-// Add Constructor(s)?  See below vvv
+// // TODO: Add animation
+
 /* Lessons learned so far: 
     - I've learned how to use
     QuerySelectorAll to manipulate
